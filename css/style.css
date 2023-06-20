@@ -11,6 +11,7 @@ header{
 main{
     background-color: lightgray;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .button_container{
@@ -30,9 +31,12 @@ main{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 80%;
-    height: 100px;
+    height: 800px;
     margin: auto;
     margin-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .bg_debug {
@@ -62,4 +66,20 @@ main{
     width: 100%;
     background-color: lightgray;
     height: 4px;
+}
+
+.type_task{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tag{
+    font-size: 9px;
+    color: white;
+    display: inline-block;
+    background-color: blue;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
 }
