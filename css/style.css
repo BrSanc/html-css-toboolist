@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+}
+
+main{
+    background-color: lightgray;
+}
+
+.main_container{
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+.bg-debug {
+    background-color: yellow;
+}
+
+.button_on{
+    display: inline;
+    border: 1px solid black;
+}
+
+.button_off{
+    display: inline;
+    border: 1px solid black;
+    background-color: blue;
+}
