@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -16,38 +22,35 @@
     </header>
     <main>
       <div class="button_container">
-        <p class="button_on">Add Task</p>
-        <p class="button_off">Add Section</p>
+        <p class="button_task">Add Task</p>
+        <p class="button_section">Add Section</p>
       </div>
 
       <div class="task_container">
-
         <!-- Title - New Task -->
         <section class="type_task">
-          <h3>New Task</h3>
-          <p>Quartely Newsletter <span class="tag">Editorial</span></p>
+          <h3>&#9662; New Task</h3>
+          <p><span class="check_symbol">&check;</span>  Quartely Newsletter  <span class="tag editorial">Editorial</span></p>
         </section>
-
 
         <!-- Title - Today -->
         <section class="type_task">
-          <h3>Today</h3>
-          <p>Recruiting blog post <span class="tag">Editorial</span></p>
-          <p>Mobile app luaunch <span class="tag">Q1 Goals</span></p>
-          <p>Interviwe John H. <span class="tag">Recruiting</span></p>
-          <p>Summit update to mobile storefronts <span class="tag">Mobile</span></p>
-        </section>
+          <h3>&#9662;</span> Today</h3>
 
+          <p><span class="check_symbol">&check;</span>  Recruiting blog post  <span class="tag editorial">Editorial</span></p>
+          <p><span class="check_symbol">&check;</span>  Mobile app luaunch  <span class="tag q1_goals">Q1 Goals</span></p>
+          <p><span class="cross_symbol">&olcross;</span>  Interviwe John H.  <span class="tag recruiting">Recruiting</span></p>
+          <p><span class="check_symbol">&check;</span>  Summit update to mobile storefronts <span class="tag mobile">Mobile</span></p>
+        </section>
 
         <!-- Title Upcoming -->
         <section class="type_task">
-          <h3>Upcoming</h3>
-          <p>Schedule meeting with Alex </p>
-          <p>Homepage refesh <span class="tag">Website</span></p>
-          <p>Onboard new Sales team members <span class="tag">Sales</span></p>
-          <p>Review editorial calendar <span class="tag">Editorial</span></p>
+          <h3>&#9662; Upcoming</h3>
+          <p><span class="cross_symbol">&olcross;</span>  Schedule meeting with Alex  </p>
+          <p><span class="check_symbol">&check;</span>  Homepage refesh  <span class="tag website">Website</span></p>
+          <p><span class="check_symbol">&check;</span>  Onboard new Sales team members  <span class="tag sales">Sales</span></p>
+          <p><span class="check_symbol">&check;</span>  Review editorial calendar  <span class="tag editorial">Editorial</span></p>
         </section>
-
       </div>
     </main>
     <footer></footer>

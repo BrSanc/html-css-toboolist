@@ -2,15 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
 }
 
 header{
     background-color: white;
 }
 
+#toboolist_logo{
+    width: 13%;
+}
+
 main{
-    background-color: lightgray;
-    padding-top: 30px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -19,11 +25,13 @@ main{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     width: 80%;
-    height: 50px;
     margin: auto;
+    font-size: 5%;
+
     padding-top: 10px ;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .task_container{
@@ -31,35 +39,36 @@ main{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 80%;
-    height: 800px;
+    height: 300px;
     margin: auto;
     margin-top: 2px;
+
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .bg_debug {
     background-color: yellow;
 }
 
-.button_off{
+.button_section{
     display: inline-block;
     border: 0.5px solid rgb(90, 90, 90);
-    padding: 5px;
+    padding: 3px;
     padding-left: 10px;
     padding-right: 10px;    
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-.button_on{
+.button_task{
     display: inline-block;
     border: 0.5px solid rgb(90, 90, 90);
-    background-color: rgb(95, 191, 255);
-    padding: 5px;
+    background-color: rgb(175, 175, 255);
+    padding: 3px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #line{
@@ -69,12 +78,13 @@ main{
 }
 
 .type_task{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .tag{
-    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5%;
     color: white;
     display: inline-block;
     background-color: blue;
@@ -82,4 +92,56 @@ main{
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
+}
+
+p{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.check_symbol{
+    border: 0.5px solid lightblue;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 5px;
+    padding-left: 1.8px;
+    padding-right: 1.8px;
+    color: lightblue;
+
+    margin-right: 3px;
+}
+
+.cross_symbol{
+    margin-right: 3px;
+    font-size: 9px;
+}
+
+
+
+
+
+/* tags colors */
+
+.editorial{
+    background-color: rgb(175, 175, 255);
+}
+
+.q1_goals{
+    background-color: rgb(99, 99, 255);
+}
+
+.recruiting{
+    background-color: mediumaquamarine;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.sales{
+    background-color: green;
+}
+
+.website{
+    background-color: rgb(192, 32, 99);
 }
